@@ -374,12 +374,12 @@ h1, h3, h4, h5, h6 {
     text-align: center;
     margin: 0;
     padding: 0;
-    width: 100%; /* Use 100% instead of 100vw to avoid horizontal scroll */
-    overflow-x: hidden; /* Prevent horizontal overflow */
+    width: 100%; 
+    overflow-x: hidden; 
   }
 
   html {
-    overflow-x: hidden; /* Ensure no horizontal scroll */
+    overflow-x: hidden; 
   }
 
   h1, h2, h3, h4, h5, h6 {
@@ -419,15 +419,15 @@ h1, h3, h4, h5, h6 {
     width: 250px;
     position: fixed;
     top: 40px;
-    left: -100%; /* Start off-screen */
+    left: -100%; 
     transition: left 0.3s ease-in-out;
-    padding-top: 60px; /* Space for the navbar */
+    padding-top: 60px; 
     margin: 0;
     list-style: none;
   }
   
   .navbar ul.active {
-    left: 0; /* Slide in from the left */
+    left: 0; 
   }
   
   .navbar ul li {
@@ -715,7 +715,7 @@ h1, h3, h4, h5, h6 {
 /* Tablet Styles (768px - 1024px) */
 @media (min-width: 768px) and (max-width: 1024px) {
   body {
-    font-size: 16px; /* Slightly larger font size for tablets */
+    font-size: 16px; 
     text-align: center;
     margin: 0;
     padding: 0;
@@ -728,11 +728,11 @@ h1, h3, h4, h5, h6 {
   }
 
   h1, h2, h3, h4, h5, h6 {
-    margin: 1rem 0; /* More spacing for headings */
+    margin: 1rem 0; 
   }
 
   p {
-    line-height: 1.6; /* Improved readability */
+    line-height: 1.6; 
     margin: 1rem 0;
   }
 
@@ -766,15 +766,15 @@ h1, h3, h4, h5, h6 {
     width: 250px;
     position: fixed;
     top: 40px;
-    left: -100%; /* Start off-screen */
+    left: -100%; 
     transition: left 0.3s ease-in-out;
-    padding-top: 60px; /* Space for the navbar */
+    padding-top: 60px; 
     margin: 0;
     list-style: none;
   }
   
   .navbar ul.active {
-    left: 0; /* Slide in from the left */
+    left: 0; 
   }
   
   .navbar ul li {
@@ -817,9 +817,9 @@ h1, h3, h4, h5, h6 {
   }
   /* About Section */
   .about {
-    display: flex; /* Keep the same flex layout as mobile */
-    flex-direction: column; /* Stack vertically like mobile */
-    gap: 2rem; /* More gap between items */
+    display: flex; 
+    flex-direction: column; 
+    gap: 2rem; 
     padding: 2rem;
     margin: 6rem auto 2rem;
     border-radius: 40px;
@@ -836,28 +836,28 @@ h1, h3, h4, h5, h6 {
 
   .about-text {
     order: 2;
-    text-align: center; /* Center text like mobile */
+    text-align: center; 
   }
 
   .about-text h2 {
-    font-size: 2.5rem; /* Larger heading for tablets */
+    font-size: 2.5rem; 
   }
 
   .about-text p {
-    font-size: 1rem; /* Slightly larger text */
+    font-size: 1rem; 
     max-width: 100%;
   }
 
   .about-text .btn {
     padding: 15px 30px;
     font-size: 1rem;
-    margin: 1.5rem auto; /* Center button like mobile */
+    margin: 1.5rem auto; 
   }
 
   /* Team Section */
   .team {
     display: grid;
-    grid-template-columns: 1fr; /* Two-column layout for tablets */
+    grid-template-columns: 1fr; 
     gap: 2rem;
     padding: 0 2rem;
   }
@@ -869,7 +869,7 @@ h1, h3, h4, h5, h6 {
 
   .team-content img {
     width: 60%;
-    height: 300px; /* Adjusted image height */
+    height: 300px; 
     border-radius: 40px;
   }
 
@@ -900,14 +900,14 @@ h1, h3, h4, h5, h6 {
   }
 
   .date-content .input {
-    flex-direction: row; /* Keep input and button in a row */
+    flex-direction: row; 
     gap: 1rem;
   }
 
   .date-content .input input,
   .date-content .input button {
     width: 100%;
-    max-width: 300px; /* Adjusted width for tablets */
+    max-width: 300px; 
     height: 50px;
     font-size: 1rem;
   }
@@ -922,13 +922,13 @@ h1, h3, h4, h5, h6 {
   }
 
   .layout .layout-content {
-    flex-direction: column; /* Stack vertically like mobile */
+    flex-direction: column; 
     align-items: center;
   }
 
   .layout .items {
     margin: 1rem;
-    text-align: center; /* Center text like mobile */
+    text-align: center; 
   }
 
   .layout .circle {
